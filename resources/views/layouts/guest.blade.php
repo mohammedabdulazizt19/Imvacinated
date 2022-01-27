@@ -9,7 +9,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/xfavicon.png.pagespeed.ic.jILojjAr1o.png">
 
 <link rel="stylesheet" href= "{{ asset('themes/cakeshop2/assets/css/A.bootstrap.min.css owl.carousel.min.css slicknav.css animate.min.css magnific-popup.css fontawesome-all.min.css themify-icons.css slick.css nice-select.css,Mcc.css') }}" />  
-<link rel="stylesheet" href= "{{ asset('themes/cakeshop2/assets/css/A.style.css.pagespeed.cf.5LG3ED0kWy.css')}}" />
+<link rel="stylesheet" href= "{{ asset('themes/cakeshop2/assets/css/A.style.css.pagespeed.cf.5LG3ED0kWy.css') }}" />
 </head>
 <body class="body-bg">
 <header>
@@ -28,7 +28,7 @@
 </ul>
 </div>
 <div class="logo">
-<a href="index.html"><img src="{{ asset('themes/cakeshop2/assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png') }}" alt=""></a>
+<a href="index.html"><img src="assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png" alt=""></a>
 </div>
 <div class="header-info-right d-none d-lg-block">
 <a href="#" class="btn_2">Call Us: +10 783 346 4378</a>
@@ -500,14 +500,23 @@
 </div>
 
 
-<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="assets/js/popper.min.js%20bootstrap.min.js.pagespeed.jc.TBjnucQRqR.js"></script><script>eval(mod_pagespeed_u1gUoaaXE_);</script>
+{{-- <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script> --}}
+<script src="{{ asset('themes/cakeshop2/assets/js/vendor/modernizr-3.5.0.min.js')}}"></script>
+
+{{-- <script src="assets/js/vendor/jquery-1.12.4.min.js"></script> --}}
+<script src=" {{ asset('themes/cakeshop2/assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
+
+{{-- <script src="assets/js/popper.min.js%20bootstrap.min.js.pagespeed.jc.TBjnucQRqR.js"></script><script>eval(mod_pagespeed_u1gUoaaXE_);</script> --}}
+<script src="{{ asset('themes/cakeshop2/assets/js/popper.min.js bootstrap.min.js.pagespeed.jc.TBjnucQRqR.js')}}"></script><script>eval(mod_pagespeed_u1gUoaaXE_);</script>
+
 <script>eval(mod_pagespeed_WbDF3cxKq2);</script>
 
-<script src="assets/js/owl.carousel.min.js%20slick.min.js.pagespeed.jc.4RHvWKSN_e.js"></script><script>eval(mod_pagespeed_EGtkiJIjgo);</script>
+{{-- <script src="assets/js/owl.carousel.min.js%20slick.min.js.pagespeed.jc.4RHvWKSN_e.js"></script><script>eval(mod_pagespeed_EGtkiJIjgo);</script> --}}
+<script src="{{ asset('themes/cakeshop2/assets/js/owl.carousel.min.js slick.min.js.pagespeed.jc.4RHvWKSN_e.js')}}"></script><script>eval(mod_pagespeed_EGtkiJIjgo);</script>
+
 <script>eval(mod_pagespeed_aW86gGmi7t);</script>
-<script src="assets/js/jquery.slicknav.min.js%20wow.min.js%20jquery.magnific-popup.js%20jquery.nice-select.min.js%20jquery.counterup.min.js%20waypoints.min.js%20contact.js.pagespeed.jc.VsnzaB4Hf-.js"></script><script>eval(mod_pagespeed_cKOtDbjEuP);</script>
+{{-- <script src="assets/js/jquery.slicknav.min.js%20wow.min.js%20jquery.magnific-popup.js%20jquery.nice-select.min.js%20jquery.counterup.min.js%20waypoints.min.js%20contact.js.pagespeed.jc.VsnzaB4Hf-.js"></script><script>eval(mod_pagespeed_cKOtDbjEuP);</script> --}}
+<script src="{{ asset('themes/cakeshop2/assets/js/jquery.slicknav.min.js wow.min.js jquery.magnific-popup.js jquery.nice-select.min.js jquery.counterup.min.js waypoints.min.js contact.js.pagespeed.jc.VsnzaB4Hf-.js')}}"></script><script>eval(mod_pagespeed_cKOtDbjEuP);</script>
 
 <script>eval(mod_pagespeed_u4y0KggLas);</script>
 <script>eval(mod_pagespeed_byRrNsFTKW);</script>
@@ -516,8 +525,7 @@
 <script>eval(mod_pagespeed_u24H4jdFDn);</script>
 
 <script>eval(mod_pagespeed_0SlrTlmba0);</script>
-<script src="assets/js/jquery.form.js%20jquery.validate.min.js%20mail-script.js%20jquery.ajaxchimp.min.js%20plugins.js%20main.js.pagespeed.jc.xUY6pkFGEX.js"></script><script>eval(mod_pagespeed_3CrgPEMOVf);</script>
-
+<script src="{{ asset('themes/cakeshop2/assets/js/jquery.form.js jquery.validate.min.js mail-script.js jquery.ajaxchimp.min.js plugins.js main.js.pagespeed.jc.xUY6pkFGEX.js') }}"></script><script>eval(mod_pagespeed_3CrgPEMOVf);</script>
 <script>eval(mod_pagespeed_Ab8QQTG9HF);</script>
 <script>eval(mod_pagespeed_BvxqohQf6X);</script>
 <script>eval(mod_pagespeed_alCOU$MPeX);</script>
@@ -525,14 +533,5 @@
 <script>eval(mod_pagespeed_aTXhT9fsuN);</script>
 <script>eval(mod_pagespeed_SFofWDl9tu);</script>
 
-<script async="" src="../../gtag/js?id=UA-23581568-13"></script>
-<script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-23581568-13');
-    </script>
-<script defer="" src="../../beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6d402ab048d489be","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
