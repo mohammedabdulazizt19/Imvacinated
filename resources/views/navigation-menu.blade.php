@@ -16,6 +16,28 @@
                     {{ __('Dashboard') }}
                 </x-jet-nav-link>
 
+                <x-jet-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
+                    {{ __('Homes') }}
+                </x-jet-nav-link>
+
+                <x-jet-nav-link href="{{ route('aboutus') }}" :active="request()->routeIs('aboutus')">
+                    {{ __('About Us') }}
+                </x-jet-nav-link>
+
+                <x-jet-nav-link href="{{ route('gallery') }}" :active="request()->routeIs('gallery')">
+                    {{ __('Gallery') }}
+                </x-jet-nav-link>
+
+                <x-jet-nav-link href="{{ route('order') }}" :active="request()->routeIs('order')">
+                    {{ __('Order') }}
+                </x-jet-nav-link>
+
+                <x-jet-nav-link href="{{ route('contactus') }}" :active="request()->routeIs('contactus')">
+                    {{ __('Contact Us') }}
+                </x-jet-nav-link>
+
+                
+
                 <x-nav-dropdown-link id="manageUserDropdown" :active="request()->routeIs('users')">
                     <x-slot name="trigger">
                         Manage Users
