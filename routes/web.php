@@ -27,9 +27,10 @@ use App\Http\Livewire\Mycontactus;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+    
+    Route::get('/', Myhome::class)->name('home');
+    Route::get('/contactus', Mycontactus::class)->name('contactus');
+    Route::get('/aboutus', Myaboutus::class)->name('aboutus');
 
     Route::prefix('guest')->group(function () {
         Route::get('/', fn() => view('layouts.guest'))->name('guest');
@@ -39,21 +40,13 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::prefix('dashboard')->group(function () {
         Route::get('/', fn() => view('dashboard'))->name('dashboard');
     });
-    Route::prefix('home')->group(function () {
-        Route::get('/', Myhome::class)->name('home');
-    });
-    Route::prefix('aboutus')->group(function () {
-        Route::get('/', Myaboutus::class)->name('aboutus');
-    });
     Route::prefix('gallery')->group(function () {
         Route::get('/', Mygallery::class)->name('gallery');
     });
     Route::prefix('order')->group(function () {
         Route::get('/', Myorder::class)->name('order');
     });
-    Route::prefix('contactus')->group(function () {
-        Route::get('/', Mycontactus::class)->name('contactus');
-    });
+
     Route::prefix('post')->group(function () {
         Route::get('/', MyPosts::class)->name('post');
     });

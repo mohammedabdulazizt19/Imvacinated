@@ -8,6 +8,6 @@ class Mycontactus extends Component
 {
     public function render()
     {
-        return view('livewire.mycontactus');
+        return view('livewire.mycontactus')->layout('layouts.guest');
     }
 }
