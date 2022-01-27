@@ -1,19 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-
-<!-- Mirrored from preview.colorlib.com/theme/cakeshop/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jan 2022 06:03:13 GMT -->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>Cake | Template</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/themes/cakeshop/assets/img/icon/xfavicon.png.pagespeed.ic.jILojjAr1o.png">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/xfavicon.png.pagespeed.ic.jILojjAr1o.png">
 
-<link rel="stylesheet" href="/themes/cakeshop/assets/css/A.bootstrap.min.css%2bowl.carousel.min.css%2bslicknav.css%2banimate.min.css%2bmagnific-popup.css%2bfontawesome-all.min.css%2bthemify-icons.css%2bslick.css%2bni" />
-<link rel="stylesheet" href="/themes/cakeshop/assets/css/A.style.css.pagespeed.cf.5LG3ED0kWy.css">
-<script>(function(w,d){!function(a,e,t,r,z){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zarazData.tracks=[],a.zaraz={deferred:[]};var s=e.getElementsByTagName("title")[0];a.zarazData.c=e.cookie,s&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),//
-a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.push(e),t)a.zarazData["z_"+key]=t[key]},a.zaraz._preSet=[],a.zaraz.set=(e,t,r)=>{a.zarazData["z_"+e]=t,a.zaraz._preSet.push([e,t,r])},a.dataLayer.push({"zaraz.start":(new Date).getTime()}),a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r);z.defer=!0,z.src="../../themes/cakeshop/cdn-cgi/zaraz/sd0d9.html?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
+<link rel="stylesheet" href= "{{ asset('themes/cakeshop2/assets/css/A.bootstrap.min.css owl.carousel.min.css slicknav.css animate.min.css magnific-popup.css fontawesome-all.min.css themify-icons.css slick.css nice-select.css,Mcc.css') }}" />  
+<link rel="stylesheet" href= "{{ asset('themes/cakeshop2/assets/css/A.style.css.pagespeed.cf.5LG3ED0kWy.css')}}" />
+</head>
 <body class="body-bg">
 <header>
 <div class="header-area">
@@ -31,7 +28,7 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 </ul>
 </div>
 <div class="logo">
-<a href="index-2.html"><img src="/themes/cakeshop/assets/img/logo/logo.png" alt=""></a>
+<a href="index.html"><img src="{{ asset('themes/cakeshop2/assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png') }}" alt=""></a>
 </div>
 <div class="header-info-right d-none d-lg-block">
 <a href="#" class="btn_2">Call Us: +10 783 346 4378</a>
@@ -49,7 +46,7 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="main-menu d-none d-lg-block text-center">
 <nav>
 <ul id="navigation">
-<li><a href="index-2.html">Home</a></li>
+<li><a href="index.html">Home</a></li>
 <li><a href="cakes.html">Cakes</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="blog.html">Blog</a>
@@ -116,8 +113,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 </div>
 <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-8">
 
-<div class="about-img about-img1  ">
-<img src="/themes/cakeshop/assets/img/gallery/about1.jpg" alt="">
+<div class="about-img about-img1">
+<img src="{{ asset('themes/cakeshop2/assets/img/gallery/xabout1.jpg.pagespeed.ic.F65Pj8xV0r.jpg') }}" alt="">
 </div>
 </div>
 </div>
@@ -132,7 +129,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="properties pb-30">
 <div class="properties-card">
 <div class="properties-img">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/items1.jpg" alt=""></a>
+<a href="#"><img src=" {{ asset('themes/cakeshop2/assets/img/gallery/xitems1.jpg.pagespeed.ic.ndndVIo68X.jpg') }}" alt=""></a>
+
 <div class="img-cap">
 <span>Add to cart</span>
 </div>
@@ -151,7 +149,9 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="properties pb-30">
 <div class="properties-card">
 <div class="properties-img">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/items2.jpg" alt=""></a>
+
+<a href="#"><img src="{{ asset('themes/cakeshop2/assets/img/gallery/xitems2.jpg.pagespeed.ic.xD9YJnjqSa.jpg') }}" alt=""></a>
+
 <div class="img-cap">
 <span>Add to cart</span>
 </div>
@@ -170,7 +170,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="properties pb-30">
 <div class="properties-card">
 <div class="properties-img">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/items3.jpg" alt=""></a>
+<a href="#"><img src="{{ asset('themes/cakeshop2/assets/img/gallery/xitems3.jpg.pagespeed.ic.M_9-o6yFxB.jpg')}}" alt=""></a>
+
 <div class="img-cap">
 <span>Add to cart</span>
 </div>
@@ -189,7 +190,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="properties pb-30">
 <div class="properties-card">
 <div class="properties-img">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/items2.jpg" alt=""></a>
+<a href="#"><img src="{{ asset('themes/cakeshop2/assets/img/gallery/xitems2.jpg.pagespeed.ic.xD9YJnjqSa.jpg') }}" alt=""></a>
+
 <div class="img-cap">
 <span>Add to cart</span>
 </div>
@@ -211,7 +213,7 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 
 <div class="video-area">
 <div class="container">
-<div class="video-wrap position-relative section-bg2 d-flex align-items-center" data-background="/themes/cakeshop/assets/img/gallery/video-bg.jpg">
+<div class="video-wrap position-relative section-bg2 d-flex align-items-center" data-background="assets/img/gallery/video-bg.jpg">
 
 <div class="video-icon">
 <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=up68UAfH0d0"><i class="fas fa-play"></i></a>
@@ -247,7 +249,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <p>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</p>
 </div>
 <div class="cat-img">
-<img src="/themes/cakeshop/assets/img/gallery/customer1.png" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/gallery/customer1.png') }}" alt="">
+
 <p>Wilma Mumduya</p>
 </div>
 </div>
@@ -267,7 +270,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <p>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</p>
 </div>
 <div class="cat-img">
-<img src="/themes/cakeshop/assets/img/gallery/customer2.png" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/gallery/customer2.png')}}" alt="">
+
 <p>Wilma Mumduya</p>
 </div>
 </div>
@@ -287,7 +291,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <p>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</p>
 </div>
 <div class="cat-img">
-<img src="/themes/cakeshop/assets/img/gallery/customer3.png" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/gallery/customer3.png') }}" alt="">
+
 <p>Wilma Mumduya</p>
 </div>
 </div>
@@ -316,7 +321,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="row no-gutters">
 <div class="col-xl-6 col-lg-6 col-md-6 p-0">
 <div class="features-img">
-<img src="/themes/cakeshop/assets/img/gallery/blog1.jpg" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/gallery/xblog1.jpg.pagespeed.ic.iTQavTfZ_E.jpg')}}" alt="">
+
 </div>
 </div>
 <div class="col-xl-6 col-lg-6 col-md-6 p-0">
@@ -334,7 +340,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="row no-gutters">
 <div class="col-xl-6 col-lg-6 col-md-6 p-0">
 <div class="features-img">
-<img src="/themes/cakeshop/assets/img/gallery/blog2.jpg" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/gallery/xblog2.jpg.pagespeed.ic.G5bPO3hMOv.jpg')}}" alt="">
+
 </div>
 </div>
 <div class="col-xl-6 col-lg-6 col-md-6 p-0">
@@ -366,22 +373,26 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="instra-img mb-30">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/instra1.jpg" alt="" class="w-100"></a>
+<a href="#"><img src="{{ asset('themes/cakeshop2/assets/img/gallery/xinstra1.jpg.pagespeed.ic.hfROuiYkhu.jpg') }}" alt="" class="w-100"></a>
+
 </div>
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="instra-img mb-30">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/instra2.jpg" alt="" class="w-100"></a>
+<a href="#"><img src="{{ asset('themes/cakeshop2/assets/img/gallery/xinstra2.jpg.pagespeed.ic.k-mktG-v8O.jpg') }}" alt="" class="w-100"></a>
+
 </div>
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="instra-img mb-30">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/instra3.jpg" alt="" class="w-100"></a>
+<a href="#"><img src="{{ asset('themes/cakeshop2/assets/img/gallery/xinstra3.jpg.pagespeed.ic.gbWQpf0S_J.jpg') }}" alt="" class="w-100"></a>
+
 </div>
 </div>
 <div class="col-lg-3 col-md-6 col-sm-6">
 <div class="instra-img mb-30">
-<a href="#"><img src="/themes/cakeshop/assets/img/gallery/instra4.jpg" alt="" class="w-100"></a>
+<a href="#"><img src="{{ asset('themes/cakeshop2/assets/img/gallery/xinstra4.jpg.pagespeed.ic.t4DoF79Cew.jpg') }}" alt="" class="w-100"></a>
+
 </div>
 </div>
 </div>
@@ -396,11 +407,12 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="col-lg-12">
 <div class="footer-menu d-flex justify-content-between flex-wrap">
 <div class="logo">
-<img src="/themes/cakeshop/assets/img/logo/logo.png" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png') }}" alt="">
+
 </div>
 <nav>
 <ul>
-<li><a href="index-2.html">Home</a></li>
+<li><a href="index.html">Home</a></li>
 <li><a href="cakes.html">Cakes</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="blog.html">blog</a></li>
@@ -431,7 +443,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
 <div class="single-footer-caption mb-50">
 <div class="footer-tittle">
-<img src="/themes/cakeshop/assets/img/icon/location.svg" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/icon/location.svg') }}" alt="">
+
 <h4>Location</h4>
 <ul>
 <li>
@@ -444,11 +457,12 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
 <div class="single-footer-caption mb-50">
 <div class="footer-tittle">
-<img src="/themes/cakeshop/assets/img/icon/phone.svg" alt="">
+<img src="{{ asset('themes/cakeshop2/assets/img/icon/phone.svg')}}" alt="">
+
 <h4>Contact</h4>
 <ul>
 <li><a href="#">913-473-7000</a></li>
-<li><p><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a0c3cfced4c1c3d4e0c3c1cbc5d3c8cfd08ec3cfcd">[email&#160;protected]</a></p></li>
+<li><p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ef8c80819b8e8c9baf8c8e848a9c87809fc18c8082">[email&#160;protected]</a></p></li>
 </ul>
 </div>
 </div>
@@ -463,7 +477,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <div class="row">
 <div class="col-xl-12 ">
 <div class="footer-copy-right text-center">
-<p>Copyright &copy;<script data-cfasync="false" src="../../themes/cakeshop/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="nofollow noopener">Colorlib</a></p>
+<p>Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a></p>
+
 </div>
 </div>
 </div>
@@ -485,14 +500,14 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 </div>
 
 
-<script src="/themes/cakeshop/assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="/themes/cakeshop/assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="/themes/cakeshop/assets/js/popper.min.js%2bbootstrap.min.js.pagespeed.jc.TBjnucQRqR.js"></script><script>eval(mod_pagespeed_u1gUoaaXE_);</script>
+<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/popper.min.js%20bootstrap.min.js.pagespeed.jc.TBjnucQRqR.js"></script><script>eval(mod_pagespeed_u1gUoaaXE_);</script>
 <script>eval(mod_pagespeed_WbDF3cxKq2);</script>
 
-<script src="/themes/cakeshop/assets/js/owl.carousel.min.js%2bslick.min.js.pagespeed.jc.4RHvWKSN_e.js"></script><script>eval(mod_pagespeed_EGtkiJIjgo);</script>
+<script src="assets/js/owl.carousel.min.js%20slick.min.js.pagespeed.jc.4RHvWKSN_e.js"></script><script>eval(mod_pagespeed_EGtkiJIjgo);</script>
 <script>eval(mod_pagespeed_aW86gGmi7t);</script>
-<script src="/themes/cakeshop/assets/js/jquery.slicknav.min.js%2bwow.min.js%2bjquery.magnific-popup.js%2bjquery.nice-select.min.js%2bjquery.counterup.min.js%2bwaypoints.min.js%2bcontact.js.pagespe"></script><script>eval(mod_pagespeed_cKOtDbjEuP);</script>
+<script src="assets/js/jquery.slicknav.min.js%20wow.min.js%20jquery.magnific-popup.js%20jquery.nice-select.min.js%20jquery.counterup.min.js%20waypoints.min.js%20contact.js.pagespeed.jc.VsnzaB4Hf-.js"></script><script>eval(mod_pagespeed_cKOtDbjEuP);</script>
 
 <script>eval(mod_pagespeed_u4y0KggLas);</script>
 <script>eval(mod_pagespeed_byRrNsFTKW);</script>
@@ -501,7 +516,8 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <script>eval(mod_pagespeed_u24H4jdFDn);</script>
 
 <script>eval(mod_pagespeed_0SlrTlmba0);</script>
-<script src="/themes/cakeshop/assets/js/jquery.form.js%2bjquery.validate.min.js%2bmail-script.js%2bjquery.ajaxchimp.min.js%2bplugins.js%2bmain.js.pagespeed.jc.xUY6pkFGEX.js"></script><script>eval(mod_pagespeed_3CrgPEMOVf);</script>
+<script src="assets/js/jquery.form.js%20jquery.validate.min.js%20mail-script.js%20jquery.ajaxchimp.min.js%20plugins.js%20main.js.pagespeed.jc.xUY6pkFGEX.js"></script><script>eval(mod_pagespeed_3CrgPEMOVf);</script>
+
 <script>eval(mod_pagespeed_Ab8QQTG9HF);</script>
 <script>eval(mod_pagespeed_BvxqohQf6X);</script>
 <script>eval(mod_pagespeed_alCOU$MPeX);</script>
@@ -509,7 +525,7 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 <script>eval(mod_pagespeed_aTXhT9fsuN);</script>
 <script>eval(mod_pagespeed_SFofWDl9tu);</script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script async="" src="../../gtag/js?id=UA-23581568-13"></script>
 <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -517,8 +533,6 @@ a.dataLayer=a.dataLayer||[],a.zaraz.track=(e,t)=>{for(key in a.zarazData.tracks.
 
         gtag('config', 'UA-23581568-13');
     </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6d3fc6e8e9c246d3","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+<script defer="" src="../../beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6d402ab048d489be","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
 </body>
-
-<!-- Mirrored from preview.colorlib.com/theme/cakeshop/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jan 2022 06:03:25 GMT -->
 </html>
