@@ -57,7 +57,7 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="/">Home</a></li>
-                                            <li><a href="#">Gallery</a></li>
+                                            <li><a href="/gallery">Gallery</a></li>
                                             <li><a href="/aboutus">About</a></li>
                                             <li><a href="/contactus">Contact Us</a></li>
                                         </ul>
@@ -93,7 +93,7 @@
                                 <nav>
                                     <ul>
                                         <li><a href="/">Home</a></li>
-                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="/galley">Gallery</a></li>
                                         <li><a href="/aboutus">About</a></li>
                                         <li><a href="/contactus">Contact Us</a></li>
                                     </ul>

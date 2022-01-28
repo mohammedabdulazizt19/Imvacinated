@@ -8,6 +8,6 @@ class Mygallery extends Component
 {
     public function render()
     {
-        return view('livewire.mygallery');
+        return view('livewire.mygallery')->layout('layouts.guest');
     }
 }
