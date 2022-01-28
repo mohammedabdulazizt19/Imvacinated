@@ -7,8 +7,7 @@
     <title>ISLAS Resto & Grill</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" ype="image/x-icon" href="{{ asset('themes/cakeshop/assets/img/icon/xfavicon.png.pagespeed.ic.jILojjAr1o.png') }}" />
-
+    <link rel="shortcut icon" ype="image/x-icon" href="{{ asset('themes/cakeshop2/assets/img/icon/islas_logo.png') }}" />
     <link rel="stylesheet"
         href="{{ asset('themes/cakeshop2/assets/css/A.bootstrap.min.css owl.carousel.min.css slicknav.css animate.min.css magnific-popup.css fontawesome-all.min.css themify-icons.css slick.css nice-select.css,Mcc.css') }}" />
     <link rel="stylesheet" href="{{ asset('themes/cakeshop2/assets/css/A.style.css.pagespeed.cf.5LG3ED0kWy.css') }}" />
@@ -36,9 +35,8 @@
                                         </ul>
                                     </div>
                                     <div class="logo">
-                                        <a href="/"><img
-                                                src="{{ asset('themes/cakeshop2/assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png') }}"
-                                                alt=""></a>
+                                        {{-- <a href="/"><img src="{{ asset('themes/cakeshop2/assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png') }}" alt=""></a> --}}
+                                        <a href="/"><img class="figure-img img-fluid rounded" src="{{ asset('themes/cakeshop2/assets/img/icon/islas_logo.png') }}" style="width: 200px;" alt=""></a>
                                     </div>
                                     <div class="header-info-right d-none d-lg-block">
                                         <a href="#" class="btn_2">Call Us: +966 50 388 1180</a>
@@ -86,9 +84,8 @@
                         <div class="col-lg-12">
                             <div class="footer-menu d-flex justify-content-between flex-wrap">
                                 <div class="logo">
-                                    <img src="{{ asset('themes/cakeshop2/assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png') }}"
-                                        alt="">
-
+                                    {{-- <img src="{{ asset('themes/cakeshop2/assets/img/logo/xlogo.png.pagespeed.ic.xm-XFuawlp.png') }}" alt=""> --}}
+                                    <a href="/"><img class="figure-img img-fluid rounded" src="{{ asset('themes/cakeshop2/assets/img/icon/islas_logo.png') }}" style="width: 100px;" alt=""></a>
                                 </div>
                                 <nav>
                                     <ul>
