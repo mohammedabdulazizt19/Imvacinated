@@ -11,7 +11,8 @@
     <link rel="stylesheet"
         href="{{ asset('themes/cakeshop2/assets/css/A.bootstrap.min.css owl.carousel.min.css slicknav.css animate.min.css magnific-popup.css fontawesome-all.min.css themify-icons.css slick.css nice-select.css,Mcc.css') }}" />
     <link rel="stylesheet" href="{{ asset('themes/cakeshop2/assets/css/A.style.css.pagespeed.cf.5LG3ED0kWy.css') }}" />
-
+    
+    @stack("style")
     @livewireStyles
 
 </head>
@@ -90,7 +91,7 @@
                                 <nav>
                                     <ul>
                                         <li><a href="/">Home</a></li>
-                                        <li><a href="/galley">Gallery</a></li>
+                                        <li><a href="/gallery">Gallery</a></li>
                                         <li><a href="/aboutus">About</a></li>
                                         <li><a href="/contactus">Contact Us</a></li>
                                     </ul>
