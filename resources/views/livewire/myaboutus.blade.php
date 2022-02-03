@@ -79,87 +79,12 @@
         </div>
     </div>
 
-    <section class="customer-section section-padding">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-7">
-
-                    <div class="section-tittle text-center mb-50">
-                        <h2>Food Lover's Say</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 p-0">
-                    <div class="single-cat mb-30">
-                        <div class="cat-cap">
-                            <div class="rating">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <p>"Thank you Kuya Domz at kuya sa nagdeliver kahapon 🙂 mainit pa at masarap 🙂 we enjoyed much ... at subrang dami.. 🙂
-                            </p>
-                        </div>
-                        <div class="cat-img">
-                            <img src="{{ asset('themes/cakeshop2/assets/img/gallery/customer1.png') }}" alt="">
-                            <p>WMiryam Mazt</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 p-0">
-                    <div class="single-cat mb-30">
-                        <div class="cat-cap">
-                            <div class="rating">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <p>"Thanks many many diz Islas resto da best tlga sarap
-                            </p>
-                        </div>
-                        <div class="cat-img">
-                            <img src="{{ asset('themes/cakeshop2/assets/img/gallery/customer2.png') }}" alt="">
-                            <p>Edith Andrade</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 p-0">
-                    <div class="single-cat mb-30">
-                        <div class="cat-cap">
-                            <div class="rating">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <p>"Sarap nmn.. nasatify nmn kme ng mga kaPG ko Joms B Bunn Bebs Gatungay.. kaya lang kadisappoint lng ung kanin..
-                            </p>
-                        </div>
-                        <div class="cat-img">
-                            <img src="{{ asset('themes/cakeshop2/assets/img/gallery/customer3.png') }}" alt="">
-                            <p>Jas Min</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <div> <!--class="instragram"-->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-7 ">
 
-                    <div class="section-tittle  text-center mb-70">
+                    <div class="section-tittle  text-center mb-20">
                         <h2>Follow us on Facebook</h2>
                         <a href="https://www.facebook.com/ISLAS-Resto-Grill-628961627446509/?ref=page_internal" target="_blank" class="btn_02 btn_02s mt-25"><i class="fab fa-facebook-f"></i>Islas Resto & Grill</a>
                     </div>
