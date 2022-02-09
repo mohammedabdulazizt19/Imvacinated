@@ -1,3 +1,7 @@
+@push('style')
+        <link rel="stylesheet" href="{{ asset('css/gallery.css') }}" />
+@endpush
+
 <div>
     <div class="slider-area">
             <div class="single-slider slider-height2 slider-bg2 d-flex align-items-center">
